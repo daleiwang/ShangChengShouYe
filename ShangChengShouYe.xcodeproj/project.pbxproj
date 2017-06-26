@@ -9,23 +9,63 @@
 /* Begin PBXBuildFile section */
 		AD3003951F00F61800DD3918 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3003941F00F61800DD3918 /* main.m */; };
 		AD3003981F00F61800DD3918 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3003971F00F61800DD3918 /* AppDelegate.m */; };
-		AD30039B1F00F61800DD3918 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD30039A1F00F61800DD3918 /* ViewController.m */; };
-		AD30039E1F00F61800DD3918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD30039C1F00F61800DD3918 /* Main.storyboard */; };
-		AD3003A01F00F61800DD3918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD30039F1F00F61800DD3918 /* Assets.xcassets */; };
-		AD3003A31F00F61800DD3918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3003A11F00F61800DD3918 /* LaunchScreen.storyboard */; };
+		AD3003AC1F00F6B700DD3918 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3003AB1F00F6B700DD3918 /* RootViewController.m */; };
+		AD3003AF1F00F71200DD3918 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3003AE1F00F71200DD3918 /* OtherViewController.m */; };
+		AD3003C11F01002100DD3918 /* MenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3003BD1F01002100DD3918 /* MenuCollectionViewCell.m */; };
+		AD3003C21F01002100DD3918 /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3003BE1F01002100DD3918 /* MenuCollectionViewCell.xib */; };
+		AD3003C31F01002100DD3918 /* MenuCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3003C01F01002100DD3918 /* MenuCollectionViewController.m */; };
+		AD3003C91F01009F00DD3918 /* GridCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3003C51F01009F00DD3918 /* GridCollectionViewCell.m */; };
+		AD3003CA1F01009F00DD3918 /* GridCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3003C61F01009F00DD3918 /* GridCollectionViewCell.xib */; };
+		AD3003CB1F01009F00DD3918 /* GridCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3003C81F01009F00DD3918 /* GridCollectionViewLayout.m */; };
+		AD3003CE1F0100B000DD3918 /* GridCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3003CD1F0100B000DD3918 /* GridCollectionViewController.m */; };
+		AD3003D51F01020800DD3918 /* HaoJiaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3003D01F01020800DD3918 /* HaoJiaTableViewCell.m */; };
+		AD3003D61F01020800DD3918 /* HaoJiaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3003D11F01020800DD3918 /* HaoJiaTableViewCell.xib */; };
+		AD3003D71F01020800DD3918 /* HaoWuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3003D31F01020800DD3918 /* HaoWuTableViewCell.m */; };
+		AD3003D81F01020800DD3918 /* HaoWuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3003D41F01020800DD3918 /* HaoWuTableViewCell.xib */; };
+		AD3003DF1F01034300DD3918 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD3003DA1F01034300DD3918 /* default.png */; };
+		AD3003E01F01034300DD3918 /* goodprice_domestic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD3003DB1F01034300DD3918 /* goodprice_domestic@2x.png */; };
+		AD3003E11F01034300DD3918 /* goodprice_domestic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD3003DC1F01034300DD3918 /* goodprice_domestic@3x.png */; };
+		AD3003E21F01034300DD3918 /* homePage_headline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD3003DD1F01034300DD3918 /* homePage_headline@2x.png */; };
+		AD3003E31F01034300DD3918 /* homePage_headline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD3003DE1F01034300DD3918 /* homePage_headline@3x.png */; };
+		CEAAA4558133124C30567B7A /* libPods-ShangChengShouYe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0964B563357D080A5EFA5251 /* libPods-ShangChengShouYe.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0964B563357D080A5EFA5251 /* libPods-ShangChengShouYe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShangChengShouYe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F11489DD46F3FB969D352CA /* Pods-ShangChengShouYe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShangChengShouYe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShangChengShouYe/Pods-ShangChengShouYe.debug.xcconfig"; sourceTree = "<group>"; };
 		AD3003901F00F61800DD3918 /* ShangChengShouYe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShangChengShouYe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3003941F00F61800DD3918 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD3003961F00F61800DD3918 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD3003971F00F61800DD3918 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AD3003991F00F61800DD3918 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AD30039A1F00F61800DD3918 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AD30039D1F00F61800DD3918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AD30039F1F00F61800DD3918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AD3003A21F00F61800DD3918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD3003A41F00F61800DD3918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3003AA1F00F6B700DD3918 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AD3003AB1F00F6B700DD3918 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AD3003AD1F00F71200DD3918 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		AD3003AE1F00F71200DD3918 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		AD3003BC1F01002100DD3918 /* MenuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCollectionViewCell.h; sourceTree = "<group>"; };
+		AD3003BD1F01002100DD3918 /* MenuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCollectionViewCell.m; sourceTree = "<group>"; };
+		AD3003BE1F01002100DD3918 /* MenuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD3003BF1F01002100DD3918 /* MenuCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCollectionViewController.h; sourceTree = "<group>"; };
+		AD3003C01F01002100DD3918 /* MenuCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCollectionViewController.m; sourceTree = "<group>"; };
+		AD3003C41F01009F00DD3918 /* GridCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCollectionViewCell.h; sourceTree = "<group>"; };
+		AD3003C51F01009F00DD3918 /* GridCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCollectionViewCell.m; sourceTree = "<group>"; };
+		AD3003C61F01009F00DD3918 /* GridCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD3003C71F01009F00DD3918 /* GridCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCollectionViewLayout.h; sourceTree = "<group>"; };
+		AD3003C81F01009F00DD3918 /* GridCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCollectionViewLayout.m; sourceTree = "<group>"; };
+		AD3003CC1F0100B000DD3918 /* GridCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCollectionViewController.h; sourceTree = "<group>"; };
+		AD3003CD1F0100B000DD3918 /* GridCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCollectionViewController.m; sourceTree = "<group>"; };
+		AD3003CF1F01020800DD3918 /* HaoJiaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaoJiaTableViewCell.h; sourceTree = "<group>"; };
+		AD3003D01F01020800DD3918 /* HaoJiaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaoJiaTableViewCell.m; sourceTree = "<group>"; };
+		AD3003D11F01020800DD3918 /* HaoJiaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HaoJiaTableViewCell.xib; sourceTree = "<group>"; };
+		AD3003D21F01020800DD3918 /* HaoWuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaoWuTableViewCell.h; sourceTree = "<group>"; };
+		AD3003D31F01020800DD3918 /* HaoWuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaoWuTableViewCell.m; sourceTree = "<group>"; };
+		AD3003D41F01020800DD3918 /* HaoWuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HaoWuTableViewCell.xib; sourceTree = "<group>"; };
+		AD3003DA1F01034300DD3918 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		AD3003DB1F01034300DD3918 /* goodprice_domestic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goodprice_domestic@2x.png"; sourceTree = "<group>"; };
+		AD3003DC1F01034300DD3918 /* goodprice_domestic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goodprice_domestic@3x.png"; sourceTree = "<group>"; };
+		AD3003DD1F01034300DD3918 /* homePage_headline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homePage_headline@2x.png"; sourceTree = "<group>"; };
+		AD3003DE1F01034300DD3918 /* homePage_headline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homePage_headline@3x.png"; sourceTree = "<group>"; };
+		CB80B9BB7B2D84C0DB509171 /* Pods-ShangChengShouYe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShangChengShouYe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShangChengShouYe/Pods-ShangChengShouYe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +73,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAAA4558133124C30567B7A /* libPods-ShangChengShouYe.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70EF48DB119A422041566ED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0964B563357D080A5EFA5251 /* libPods-ShangChengShouYe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AD3003871F00F61700DD3918 = {
 			isa = PBXGroup;
 			children = (
 				AD3003921F00F61800DD3918 /* ShangChengShouYe */,
 				AD3003911F00F61800DD3918 /* Products */,
+				E40169A2C1E428FB0040004B /* Pods */,
+				70EF48DB119A422041566ED8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,15 +109,16 @@
 		AD3003921F00F61800DD3918 /* ShangChengShouYe */ = {
 			isa = PBXGroup;
 			children = (
+				AD3003D91F01034300DD3918 /* Resource */,
+				AD3003BB1F01002100DD3918 /* Root */,
 				AD3003961F00F61800DD3918 /* AppDelegate.h */,
 				AD3003971F00F61800DD3918 /* AppDelegate.m */,
-				AD3003991F00F61800DD3918 /* ViewController.h */,
-				AD30039A1F00F61800DD3918 /* ViewController.m */,
-				AD30039C1F00F61800DD3918 /* Main.storyboard */,
-				AD30039F1F00F61800DD3918 /* Assets.xcassets */,
-				AD3003A11F00F61800DD3918 /* LaunchScreen.storyboard */,
 				AD3003A41F00F61800DD3918 /* Info.plist */,
 				AD3003931F00F61800DD3918 /* Supporting Files */,
+				AD3003AA1F00F6B700DD3918 /* RootViewController.h */,
+				AD3003AB1F00F6B700DD3918 /* RootViewController.m */,
+				AD3003AD1F00F71200DD3918 /* OtherViewController.h */,
+				AD3003AE1F00F71200DD3918 /* OtherViewController.m */,
 			);
 			path = ShangChengShouYe;
 			sourceTree = "<group>";
@@ -79,6 +131,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AD3003BB1F01002100DD3918 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				AD3003CF1F01020800DD3918 /* HaoJiaTableViewCell.h */,
+				AD3003D01F01020800DD3918 /* HaoJiaTableViewCell.m */,
+				AD3003D11F01020800DD3918 /* HaoJiaTableViewCell.xib */,
+				AD3003D21F01020800DD3918 /* HaoWuTableViewCell.h */,
+				AD3003D31F01020800DD3918 /* HaoWuTableViewCell.m */,
+				AD3003D41F01020800DD3918 /* HaoWuTableViewCell.xib */,
+				AD3003CC1F0100B000DD3918 /* GridCollectionViewController.h */,
+				AD3003CD1F0100B000DD3918 /* GridCollectionViewController.m */,
+				AD3003C41F01009F00DD3918 /* GridCollectionViewCell.h */,
+				AD3003C51F01009F00DD3918 /* GridCollectionViewCell.m */,
+				AD3003C61F01009F00DD3918 /* GridCollectionViewCell.xib */,
+				AD3003C71F01009F00DD3918 /* GridCollectionViewLayout.h */,
+				AD3003C81F01009F00DD3918 /* GridCollectionViewLayout.m */,
+				AD3003BC1F01002100DD3918 /* MenuCollectionViewCell.h */,
+				AD3003BD1F01002100DD3918 /* MenuCollectionViewCell.m */,
+				AD3003BE1F01002100DD3918 /* MenuCollectionViewCell.xib */,
+				AD3003BF1F01002100DD3918 /* MenuCollectionViewController.h */,
+				AD3003C01F01002100DD3918 /* MenuCollectionViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		AD3003D91F01034300DD3918 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AD3003DA1F01034300DD3918 /* default.png */,
+				AD3003DB1F01034300DD3918 /* goodprice_domestic@2x.png */,
+				AD3003DC1F01034300DD3918 /* goodprice_domestic@3x.png */,
+				AD3003DD1F01034300DD3918 /* homePage_headline@2x.png */,
+				AD3003DE1F01034300DD3918 /* homePage_headline@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E40169A2C1E428FB0040004B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F11489DD46F3FB969D352CA /* Pods-ShangChengShouYe.debug.xcconfig */,
+				CB80B9BB7B2D84C0DB509171 /* Pods-ShangChengShouYe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD3003A71F00F61800DD3918 /* Build configuration list for PBXNativeTarget "ShangChengShouYe" */;
 			buildPhases = (
+				4BC5683C920C39E0A66A0823 /* [CP] Check Pods Manifest.lock */,
 				AD30038C1F00F61700DD3918 /* Sources */,
 				AD30038D1F00F61700DD3918 /* Frameworks */,
 				AD30038E1F00F61700DD3918 /* Resources */,
+				EAD58E5D40E6CF53B1D43241 /* [CP] Embed Pods Frameworks */,
+				332E14F63189428F5C6FAD3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,45 +238,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD3003A31F00F61800DD3918 /* LaunchScreen.storyboard in Resources */,
-				AD3003A01F00F61800DD3918 /* Assets.xcassets in Resources */,
-				AD30039E1F00F61800DD3918 /* Main.storyboard in Resources */,
+				AD3003D81F01020800DD3918 /* HaoWuTableViewCell.xib in Resources */,
+				AD3003CA1F01009F00DD3918 /* GridCollectionViewCell.xib in Resources */,
+				AD3003C21F01002100DD3918 /* MenuCollectionViewCell.xib in Resources */,
+				AD3003E01F01034300DD3918 /* goodprice_domestic@2x.png in Resources */,
+				AD3003E21F01034300DD3918 /* homePage_headline@2x.png in Resources */,
+				AD3003D61F01020800DD3918 /* HaoJiaTableViewCell.xib in Resources */,
+				AD3003DF1F01034300DD3918 /* default.png in Resources */,
+				AD3003E11F01034300DD3918 /* goodprice_domestic@3x.png in Resources */,
+				AD3003E31F01034300DD3918 /* homePage_headline@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		332E14F63189428F5C6FAD3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShangChengShouYe/Pods-ShangChengShouYe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BC5683C920C39E0A66A0823 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD58E5D40E6CF53B1D43241 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShangChengShouYe/Pods-ShangChengShouYe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD30038C1F00F61700DD3918 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD30039B1F00F61800DD3918 /* ViewController.m in Sources */,
+				AD3003CB1F01009F00DD3918 /* GridCollectionViewLayout.m in Sources */,
+				AD3003CE1F0100B000DD3918 /* GridCollectionViewController.m in Sources */,
+				AD3003C11F01002100DD3918 /* MenuCollectionViewCell.m in Sources */,
 				AD3003981F00F61800DD3918 /* AppDelegate.m in Sources */,
+				AD3003C91F01009F00DD3918 /* GridCollectionViewCell.m in Sources */,
+				AD3003AF1F00F71200DD3918 /* OtherViewController.m in Sources */,
 				AD3003951F00F61800DD3918 /* main.m in Sources */,
+				AD3003D51F01020800DD3918 /* HaoJiaTableViewCell.m in Sources */,
+				AD3003AC1F00F6B700DD3918 /* RootViewController.m in Sources */,
+				AD3003C31F01002100DD3918 /* MenuCollectionViewController.m in Sources */,
+				AD3003D71F01020800DD3918 /* HaoWuTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AD30039C1F00F61800DD3918 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD30039D1F00F61800DD3918 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AD3003A11F00F61800DD3918 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD3003A21F00F61800DD3918 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AD3003A51F00F61800DD3918 /* Debug */ = {
@@ -272,6 +416,7 @@
 		};
 		AD3003A81F00F61800DD3918 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F11489DD46F3FB969D352CA /* Pods-ShangChengShouYe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShangChengShouYe/Info.plist;
@@ -283,6 +428,7 @@
 		};
 		AD3003A91F00F61800DD3918 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB80B9BB7B2D84C0DB509171 /* Pods-ShangChengShouYe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShangChengShouYe/Info.plist;
@@ -311,6 +457,7 @@
 				AD3003A91F00F61800DD3918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

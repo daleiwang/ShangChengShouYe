@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="224" id="KGk-i7-Jjw" customClass="HaoWuTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="224"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="380" height="224"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TwS-kh-1IX">
+                        <rect key="frame" x="0.0" y="0.0" width="380" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="好物" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rV5-2e-2jF">
+                                <rect key="frame" x="32" y="7" width="29" height="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goodprice_domestic.png" translatesAutoresizingMaskIntoConstraints="NO" id="D64-TF-x4m">
+                                <rect key="frame" x="15" y="9" width="12" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="IGh-57-I2J"/>
+                                    <constraint firstAttribute="height" constant="12" id="v7C-OA-usi"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rV5-2e-2jF" firstAttribute="leading" secondItem="D64-TF-x4m" secondAttribute="trailing" constant="5" id="7G3-gs-aYx"/>
+                            <constraint firstItem="D64-TF-x4m" firstAttribute="centerY" secondItem="TwS-kh-1IX" secondAttribute="centerY" id="Iih-LS-mXU"/>
+                            <constraint firstItem="rV5-2e-2jF" firstAttribute="centerY" secondItem="TwS-kh-1IX" secondAttribute="centerY" id="PZR-yG-ghm"/>
+                            <constraint firstAttribute="height" constant="30" id="n5T-TL-u1r"/>
+                            <constraint firstItem="D64-TF-x4m" firstAttribute="leading" secondItem="TwS-kh-1IX" secondAttribute="leading" constant="15" id="wCT-Ru-fkM"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rsz-79-TvK">
+                        <rect key="frame" x="0.0" y="31" width="380" height="186"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default.png" translatesAutoresizingMaskIntoConstraints="NO" id="C3o-R6-kKn">
+                                <rect key="frame" x="8" y="8" width="364" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="5mh-6x-3q4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大江东去 浪淘尽 千古风流人物 故垒西边 三国周郎赤壁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9NC-1y-CiN">
+                                <rect key="frame" x="8" y="146" width="364" height="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="天猫旗舰店：12:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCw-Zk-vwH">
+                                <rect key="frame" x="283.5" y="166" width="88.5" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9NC-1y-CiN" secondAttribute="trailing" constant="8" id="Ptq-SN-C29"/>
+                            <constraint firstItem="9NC-1y-CiN" firstAttribute="leading" secondItem="rsz-79-TvK" secondAttribute="leading" constant="8" id="Q7i-sh-f0R"/>
+                            <constraint firstItem="9NC-1y-CiN" firstAttribute="top" secondItem="C3o-R6-kKn" secondAttribute="bottom" constant="8" id="XA1-JS-Ebl"/>
+                            <constraint firstAttribute="bottom" secondItem="bCw-Zk-vwH" secondAttribute="bottom" constant="8" id="c89-Pa-xTO"/>
+                            <constraint firstAttribute="height" constant="186" id="dF8-Cc-hQj"/>
+                            <constraint firstAttribute="trailing" secondItem="C3o-R6-kKn" secondAttribute="trailing" constant="8" id="h1W-Yv-YJX"/>
+                            <constraint firstItem="C3o-R6-kKn" firstAttribute="top" secondItem="rsz-79-TvK" secondAttribute="top" constant="8" id="neU-zy-meU"/>
+                            <constraint firstAttribute="trailing" secondItem="bCw-Zk-vwH" secondAttribute="trailing" constant="8" id="pxn-jO-z5f"/>
+                            <constraint firstItem="C3o-R6-kKn" firstAttribute="leading" secondItem="rsz-79-TvK" secondAttribute="leading" constant="8" id="vf4-e8-is7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="TwS-kh-1IX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="3Av-QA-Jzq"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="TwS-kh-1IX" secondAttribute="trailing" constant="-8" id="OBk-Lj-s1f"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="rsz-79-TvK" secondAttribute="trailing" constant="-8" id="RsZ-aD-SkM"/>
+                    <constraint firstItem="rsz-79-TvK" firstAttribute="top" secondItem="TwS-kh-1IX" secondAttribute="bottom" constant="0.80000000000000004" id="jXg-Uy-dvN"/>
+                    <constraint firstItem="TwS-kh-1IX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="vn7-3v-Bcp"/>
+                    <constraint firstItem="rsz-79-TvK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="z1P-fy-ff0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageV" destination="C3o-R6-kKn" id="45d-Zm-yBR"/>
+            </connections>
+            <point key="canvasLocation" x="64" y="144"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="default.png" width="200" height="200"/>
+        <image name="goodprice_domestic.png" width="12" height="12"/>
+    </resources>
+</document>

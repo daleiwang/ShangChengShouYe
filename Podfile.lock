@@ -1,0 +1,17 @@
+PODS:
+  - SDCycleScrollView (1.66):
+    - SDWebImage (~> 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - SDCycleScrollView (~> 1.64)
+
+SPEC CHECKSUMS:
+  SDCycleScrollView: e3ade90e9b3159bec04330b208fbfd81c3f3b671
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: 2a45a716187f4153270186c3a88bbadb754c3500
+
+COCOAPODS: 1.2.0
